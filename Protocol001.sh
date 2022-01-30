@@ -30,6 +30,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -
 sudo dpkg -i chrome.deb
 sudo apt-get install -f
 
+sudo snap install arduino
+
 sudo snap install brave
 
 sudo apt-get -y install cmake
@@ -50,4 +52,5 @@ cd /tmp/
 wget https://www.dev47apps.com/files/linux/droidcam_latest.zip
 unzip droidcam_latest.zip -d droidcam && cd droidcam
 sudo ./install
+
 echo "Instalacoes realizadas com sucesso"

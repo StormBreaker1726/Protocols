@@ -21,6 +21,8 @@ sudo apt install snapd
 
 sudo snap install code --classic
 
+sudo snap install arduino
+
 sudo snap install discord
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
