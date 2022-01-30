@@ -3,6 +3,8 @@
 echo "              Iniciando execucao Protocolo001:"
 echo "                  Instalacao Automatica PC"
 
+sudo apt install build-essential
+
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa

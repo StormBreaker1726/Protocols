@@ -3,6 +3,8 @@
 echo "              Iniciando execucao Protocolo002:"
 echo "                  Instalacao Automatica Notebook"
 
+sudo apt install build-essential
+
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
