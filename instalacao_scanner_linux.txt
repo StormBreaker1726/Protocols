@@ -1,0 +1,19 @@
+1) sudo apt remove ippusbxd
+
+2) pegar o link: https://www.canon.co.uk/support/consumer_products/products/scanners/lide_series/canoscan-lide-300.html?type=drivers&language=en&os=linux%20(64-bit)#disclaimer
+
+3) descompactar
+
+4) ./install.sh
+
+5) sudo add-apt-repository ppa:sane-project/sane-git
+
+6) sudo apt-get update
+
+7) sudo apt install libsane-common
+
+8) sudo apt install sane-utils
+
+9) sudo apt install xsane
+
+10) scanimage -L (achar o scanner)
