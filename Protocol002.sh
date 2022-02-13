@@ -39,4 +39,8 @@ sudo snap install telegram-desktop
 
 sudo apt install git-all
 
+wget https://www.xm1math.net/texmaker/assets/files/texmaker_5.1.2_ubuntu_20_04_amd64.deb
+sudo dpkg -i texmaker_5.1.2_ubuntu_20_04_amd64.deb
+sudo apt-get install -f
+
 echo "Instalacoes realizadas com sucesso"
